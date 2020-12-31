@@ -76,10 +76,21 @@ foods.splice(0, 1) // starts at 0 and deletes 1 item and returns array of delete
 
 // **** OBJECTS ****** //
 
+
+
 const person = {
 	first: 'Michael',
 	lastname: 'Jageh'
 }
+
+
+person['first'] // accesses Michael
+person.first // also does the same
+
+// BIG NOTE: if used number, accessable with [] as number or string of that number
+// this is cause key is converted to string and [ ] does the same
+// can put expression inside [ ] if you wanted to, varaibles count as expressions
+
 
 
 
