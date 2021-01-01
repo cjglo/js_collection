@@ -93,6 +93,44 @@ person.first // also does the same
 
 
 
+// ** For..of with arrays **
+console.log('\n');
+let animals = ['dog', 'cat', 'squirrel', 'turtle'];
+
+for(let each of animals)
+{
+	console.log(each);
+}
+// Note: Arays and strings are both iterables
+
+
+
+// ** iterating over objs (since not iterables) ---
+
+// Must use for..in !!!
+
+// note: for..in is very rare, use of, but in is for objects
+
+const testscores = {
+	Matt: 79,
+	Sam: 80,
+	Sarah: 78,
+	Ali: 80,
+	Amy: 81,
+}
+
+for (let person in testscores)
+{
+	console.log(person); // will print keys! not the values
+
+	console.og(testscores[person]); // prints value
+}
+
+// also can use a special std lib function:
+
+Object.values(testscores); // returns array of the values
+
+
 
 
 
