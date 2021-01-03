@@ -134,4 +134,17 @@ Object.values(testscores); // returns array of the values
 
 
 
+// ** Object methods **
+
+const myMath = {
+	PI: 3.14159265
+	square: function (num) { return num*num; }
+} // attribute of pi and method of suqare, obviosuly
+
+
+// shorthand is to just write something like:
+// square(num) { // stuff }
+
+
+
 
