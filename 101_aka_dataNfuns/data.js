@@ -131,9 +131,6 @@ for (let person in testscores)
 Object.values(testscores); // returns array of the values
 
 
-
-
-
 // ** Object methods **
 
 const myMath = {
@@ -144,6 +141,19 @@ const myMath = {
 
 // shorthand is to just write something like:
 // square(num) { // stuff }
+
+
+
+// *** destruct object! ***
+
+const user = {
+	email: 'example@gmail.com',
+	password: 'me1990',
+	first: 'Jogn',
+};
+
+const {email, password} = user; // creates email and password vars from above values
+const {first: userName, password: pass} = user; // creates vars with diff names based on obj's values
 
 
 
