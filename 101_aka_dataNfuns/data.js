@@ -156,5 +156,11 @@ const {email, password} = user; // creates email and password vars from above va
 const {first: userName, password: pass} = user; // creates vars with diff names based on obj's values
 
 
+// can also set default parameters with this
+const {email, password, last_login = "N/A"} = user;
+// now if last_login doesn't exist, the N/A value will be put in
+
+
+
 
 
