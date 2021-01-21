@@ -162,5 +162,3 @@ const {email, password, last_login = "N/A"} = user;
 
 
 
-
-
