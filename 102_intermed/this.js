@@ -76,7 +76,9 @@
 	let sum = (x, y) => { return x + y; } // return no logner implied if {} there
 
 	// "this" w/ arrows
-	
+	let arrow = () => this; // winodw is binded, calling as method will still call window
 
+	// will still be Window object if defined inside as well!
 
+	// arrow functions CAN NOT CHANGE! even with bind
 }
