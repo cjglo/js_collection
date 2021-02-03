@@ -1,0 +1,22 @@
+
+
+/**{
+	background-color: red;
+}*/
+/** selects all elements*/
+
+
+
+button {
+	background-color: blue;
+}
+
+/*NOTE: specificity rule means that color is applied by specificness, so even if
+switch button and *, the button will be blue*/
+
+
+p {
+	background-color: green !important; /* !important means will never be overirdden */
+}
+
+
